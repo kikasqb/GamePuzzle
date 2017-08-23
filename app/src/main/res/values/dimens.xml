@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens200dp">200dp</dimen>
+    <dimen name="dimens100dp">100dp</dimen>
+    <dimen name="dimens20dp">20dp</dimen>
+    <dimen name="dimens10dp">10dp</dimen>
+    <dimen name="dimens5dp">5dp</dimen>
+    <dimen name="dimens20sp">20sp</dimen>
+</resources>

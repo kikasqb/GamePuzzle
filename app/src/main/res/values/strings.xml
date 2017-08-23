@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppPuzzle</string>
+    <string name="gameAnimal"> Game Animal</string>
+    <string name="animalPuzzle"> Animal Puzzle</string>
+</resources>

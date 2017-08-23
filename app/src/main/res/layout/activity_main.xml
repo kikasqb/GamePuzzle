@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context="com.example.fullstack.apppuzzle.MainActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dimens10dp">
+
+        <ImageButton
+            android:id="@+id/imgGameAnimal"
+            android:layout_width="@dimen/dimens200dp"
+            android:layout_height="@dimen/dimens100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens10dp"
+            android:layout_marginTop="@dimen/dimens10dp"
+            android:drawableLeft="@drawable/icon_monkey"
+            android:drawablePadding="@dimen/dimens5dp"
+            android:text="@string/gameAnimal"
+            android:textColor="@color/colorWhilte"
+            android:textSize="@dimen/dimens20sp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/dimens20sp">
+
+        <ImageButton
+            android:id="@+id/imgAnimalPuzzle"
+            android:layout_width="@dimen/dimens200dp"
+            android:layout_height="@dimen/dimens100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="@dimen/dimens10dp"
+            android:layout_marginTop="@dimen/dimens10dp"
+            android:drawableLeft="@drawable/icon_nguavan"
+            android:drawablePadding="@dimen/dimens5dp"
+            android:text="@string/animalPuzzle"
+            android:textColor="@color/colorWhilte"
+            android:textSize="@dimen/dimens20sp"
+
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
