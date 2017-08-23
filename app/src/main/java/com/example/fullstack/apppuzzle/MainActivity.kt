@@ -41,9 +41,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+    // tao fun hàm satractivity trong  kotlin
     fun  Context.startActivity(form: Context, to:Class<*>){
         val intent: Intent = Intent(form, to)
         startActivity(intent)
     }
+
 
 }
