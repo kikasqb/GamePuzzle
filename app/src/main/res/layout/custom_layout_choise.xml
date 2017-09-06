@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<ImageButton
+    android:id="@+id/imagePictuer"
+    android:layout_width="@dimen/dimens100dp"
+    android:layout_height="@dimen/dimens100dp"
+    android:background="@color/crad"
+    android:layout_margin="@dimen/dimens20dp"
+    android:scaleType="fitXY"/>
+</LinearLayout>
