@@ -23,7 +23,8 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".GameAnimalActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".PlayGamePuzzleActivity"></activity>
     </application>
 
 </manifest>
